@@ -1,0 +1,37 @@
+body {
+  margin: 0 8px;
+}
+
+.search-form {
+  text-align: center;
+  background-color: #9c27b0;
+  padding: 10px 0;
+}
+
+.wrap {
+  position: relative;
+  display: inline;
+}
+
+.search-form input {
+  border-radius: 5px;
+  width: 300px;
+  padding: 8px;
+  border: 2px solid #03a9f4;
+}
+
+.search-form button {
+  position: absolute;
+  right: 3px;
+  top: -6px;
+  padding: 0;
+  border: none;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+}
