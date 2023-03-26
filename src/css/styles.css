@@ -35,3 +35,15 @@ body {
   width: 15px;
   height: 15px;
 }
+
+.gallery {
+  width: 1008px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+
+.photo-cart {
+  width: (1008-15)/4;
+}
