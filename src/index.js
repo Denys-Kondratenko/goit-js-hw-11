@@ -13,7 +13,7 @@ function template({
   downloads,
 }) {
   return `<div class="photo-card">
-  <img src="${webformatURL}" alt="${tags}" loading="lazy" height='150'/>
+  <img src="${webformatURL}" alt="${tags}" loading="lazy"/>
   <div class="info">
     <p class="info-item">
       <b>Likes</b>

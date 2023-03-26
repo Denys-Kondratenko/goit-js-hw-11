@@ -45,5 +45,10 @@ body {
 }
 
 .photo-cart {
-  width: (1008-15)/4;
+  flex-basis: calc((100% - 15px) / 4);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
 }
