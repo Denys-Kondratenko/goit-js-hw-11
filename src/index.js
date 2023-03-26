@@ -78,6 +78,7 @@ function handleSubmit(event) {
 
   if (request === '') {
     refs.gallery.innerHTML = '';
+    refs.btnMore.style.display = 'none';
     return;
   }
 
