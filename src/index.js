@@ -77,6 +77,7 @@ function handleSubmit(event) {
   request = event.currentTarget.elements.searchQuery.value;
 
   if (request === '') {
+    refs.gallery.innerHTML = '';
     return;
   }
 
